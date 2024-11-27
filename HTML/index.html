@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beratungsdienstleistungen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css"
+    />
     <link rel="stylesheet" href="../CSS/styles.css" />
   </head>
   <body>
@@ -41,50 +49,156 @@
       </div>
     </section>
 
-    <section class="features">
-      <h2>Unsere Vorteile</h2>
-      <ul>
-        <li>Erfahrene Berater</li>
-        <li>Maßgeschneiderte Lösungen</li>
-        <li>Umfassende Unterstützung</li>
+    <section class="services container">
+      <h2 class="title">Unsere Vorteile</h2>
+      <ul class="services-list">
+        <li class="services-list_item">
+          <svg width="45" height="45">
+            <use href="../IMAGES/sprite.svg#icon-running"></use>
+          </svg>
+          <h3 class="item_title">Expertenwissen</h3>
+          <p class="item_description">
+            Unser Team verfügt über umfassende Branchenkenntnisse und bietet
+            Ihnen maßgeschneiderte Lösungen.
+          </p>
+        </li>
+        <li class="services-list_item">
+          <svg width="45" height="45">
+            <use href="../IMAGES/sprite.svg#icon-calendar"></use>
+          </svg>
+          <h3 class="item_title">Innovative Ansätze</h3>
+          <p class="item_description">
+            Wir setzen auf kreative und effektive Strategien, um Ihre
+            Geschäftsziele zu erreichen.
+          </p>
+        </li>
+        <li class="services-list_item">
+          <svg width="45" height="45">
+            <use href="../IMAGES/sprite.svg#icon-calories"></use>
+          </svg>
+          <h3 class="item_title">Zuverlässigkeit</h3>
+          <p class="item_description">
+            Verlassen Sie sich auf uns - wir begleiten Sie bei jedem Schritt
+            Ihres Projekts.
+          </p>
+        </li>
+        <li class="services-list_item">
+          <svg width="45" height="45">
+            <use href="../IMAGES/sprite.svg#icon-play"></use>
+          </svg>
+          <h3 class="item_title">Nachhaltiges Wachstum</h3>
+          <p class="item_description">
+            Wir fördern langfristigen Erfolg durch strategische Planung und
+            Umsetzung.
+          </p>
+        </li>
       </ul>
     </section>
 
-    <!-- Блок блогу -->
-    <section id="blog" class="blog">
-      <h2>Blog</h2>
+    <section class="features">
+      <h2 class="title">Unsere Aufgaben</h2>
+      <ul class="features_list">
+        <li class="features_list_item">Beratung und Strategieentwicklung</li>
+        <li class="features_list_item">
+          Prozessoptimierung und Effizienzsteigerung
+        </li>
+        <li class="features_list_item">Change Management und Transformation</li>
+      </ul>
+    </section>
+
+    <section id="blog" class="container blog">
+      <h2 class="title">Blog</h2>
       <div class="posts">
-        <article>
-          <h3>Wie man Geschäftsstrategien verbessert</h3>
-          <p>Tipps und Tricks zur Optimierung Ihrer Geschäftsprozesse.</p>
+        <article class="posts_article">
+          <img
+            src="../IMAGES/img_1.jpg"
+            height="300"
+            alt="Ein Mann mit einem Computer"
+          />
+          <h3 class="item_title">Wie man Geschäftsstrategien verbessert</h3>
+          <p class="item_description">
+            Die Verbesserung Ihrer Geschäftsstrategien beginnt mit einer
+            gründlichen Analyse bestehender Abläufe, um Schwachstellen zu
+            erkennen. Setzen Sie klare Ziele und nutzen Sie moderne
+            Technologien, um Prozesse effizienter zu gestalten. Regelmäßige
+            Überprüfungen und Anpassungen sorgen dafür, dass Ihre Strategien
+            stets am Puls der Zeit bleiben.
+          </p>
         </article>
-        <article>
-          <h3>Die Bedeutung der Finanzplanung</h3>
-          <p>Warum eine solide Finanzplanung der Schlüssel zum Erfolg ist.</p>
+        <article class="posts_article">
+          <img
+            src="../IMAGES/img_2.jpg"
+            height="300"
+            alt="Eine Frau mit einem Computer"
+          />
+          <h3 class="item_title">Die Bedeutung der Finanzplanung</h3>
+          <p class="item_description">
+            Eine klare Finanzplanung schafft Transparenz über Einnahmen und
+            Ausgaben und hilft, finanzielle Risiken zu minimieren. Sie
+            ermöglicht es, gezielte Investitionen zu tätigen und langfristige
+            Unternehmensziele zu erreichen. Mit einer stabilen finanziellen
+            Basis können Unternehmen flexibel auf Veränderungen reagieren und
+            nachhaltig wachsen.
+          </p>
         </article>
-        <article>
-          <h3>Erfolgreiche Startups in der Schweiz</h3>
-          <p>Ein Blick auf die besten Startups und deren Erfolgsstrategien.</p>
+        <article class="posts_article">
+          <img
+            src="../IMAGES/img_4.jpg"
+            height="300"
+            alt="Ein Computer mit Büchern"
+          />
+          <h3 class="item_title">Erfolgreiche Startups in der Schweiz</h3>
+          <p class="item_description">
+            Erfolgreiche Startups zeichnen sich durch innovative Ideen und eine
+            klare Marktpositionierung aus. Sie setzen auf Agilität, um sich
+            schnell an Veränderungen anzupassen, und nutzen moderne Technologien
+            effektiv. Ein starker Fokus auf Kundenbedürfnisse und eine
+            engagierte Unternehmenskultur sind weitere Schlüssel zu ihrem
+            Erfolg.
+          </p>
         </article>
       </div>
     </section>
 
-    <!-- Форма зв'язку -->
-    <section id="contacts" class="contact">
-      <h2>Kontaktieren Sie uns</h2>
-      <form id="contact-form">
-        <input type="text" placeholder="Ihr Name" required />
-        <input type="email" placeholder="E-Mail" required />
-        <input type="tel" placeholder="Telefonnummer" required />
-        <button type="submit">Nachricht senden</button>
+    <section id="contacts" class="contact container">
+      <h2 class="title">Kontaktieren Sie uns</h2>
+      <form id="contact-form" class="contact_form">
+        <input
+          type="text"
+          placeholder="Ihr Name"
+          class="contact_form_input"
+          required
+        />
+        <input
+          type="email"
+          placeholder="E-Mail"
+          class="contact_form_input"
+          required
+        />
+        <input type="tel" placeholder="Telefonnummer" id="phone" required />
+        <button type="submit" class="contact_form_button">
+          Nachricht senden
+        </button>
       </form>
     </section>
 
-    <!-- Місцезнаходження на карті -->
     <section class="map">
-      <h2>Unser Standort</h2>
+      <div class="container">
+        <h2 class="title">Unser Standort</h2>
+        <address class="map_adress_container">
+          <p>Adresse:</p>
+          <a
+            href="https://www.google.com/maps?q=47.37688617917367,8.541694315447112"
+            target="_blank"
+          >
+            Bahnhofstrasse 1, 8001 Zürich, Schweiz
+          </a>
+          <p>Telefon:</p>
+          <a href="tel:+41441234567">+41 44 123 45 67</a>
+        </address>
+      </div>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2769.435117206222!2d8.541694315447112!3d47.37688617917367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a065b2d857d%3A0x40f16f367ec57e0!2sZ%C3%BCrich%2C%20Schweiz!5e0!3m2!1sen!2sde!4v1671234567890!5m2!1sen!2sde"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2769.435117206222!2d8.541694315447112!3d47.37688617917367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a065b2d857d%3A0x40f16f367ec57e0!2sBahnhofstrasse%201%2C%208001%20Zürich%2C%20Schweiz!5e0!3m2!1sen!2sde!4v1671234567890!5m2!1sen!2sde"
         width="100%"
         height="450"
         style="border: 0"
@@ -93,14 +207,51 @@
       ></iframe>
     </section>
 
-    <!-- Футер -->
-    <footer>
-      <p>
-        &copy; 2024 RIGHT LIFE. Alle Rechte vorbehalten. | Datenschutz |
-        Impressum
-      </p>
+    <footer class="footer container">
+      <svg class="header_logo" width="20" height="20">
+        <use href="../IMAGES/sprite.svg#icon-logo"></use>
+      </svg>
+      <p>Kontakt:</p>
+      <p>Telefon: <a href="tel:+41441234567">+41 44 123 45 67</a></p>
+      <a href="../HTML/private.html">Datenschutz</a>
+      <a href="../HTML/terms.html">Impressum</a>
+      <p>&copy; 2024 RIGHT LIFE. Alle Rechte vorbehalten.</p>
     </footer>
 
-    <script src="../JS//script.js"></script>
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-popup-content">
+        <h2 class="title">Kontaktieren Sie uns</h2>
+        <form class="modal_contact_form">
+          <input
+            type="text"
+            placeholder="Ihr Name"
+            class="contact_form_input"
+            required
+          />
+          <input
+            type="email"
+            placeholder="E-Mail"
+            class="contact_form_input"
+            required
+          />
+          <input
+            type="tel"
+            placeholder="Telefonnummer"
+            class="contact_form_input"
+            required
+          />
+          <button type="submit" class="contact_form_button">
+            Nachricht senden
+          </button>
+        </form>
+        <button id="accept-cookies" class="modal_button">Akzeptieren</button>
+      </div>
+    </div>
+
+    <script src="../JS/scriptForm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"></script>
+    <script src="../JS/scriptPhone.js"></script>
+    <script src="../JS/scriptModal.js"></script>
   </body>
 </html>
