@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beratungsdienstleistungen</title>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+  </head>
+  <body>
+    <header>
+      <svg class="header_logo" width="20" height="20">
+        <use href="../IMAGES/sprite.svg#icon-logo"></use>
+      </svg>
+      <nav>
+        <ul class="header_list">
+          <li class="header_list_item">
+            <a href="#blog" class="header_list_link">Blog</a>
+          </li>
+          <li class="header_list_item">
+            <a href="#contacts" class="header_list_link">Kontakt</a>
+          </li>
+          <li class="header_list_item">
+            <a href="#faq" class="header_list_link">FAQ</a>
+          </li>
+          <li class="header_list_item">
+            <a href="#about" class="header_list_link">Über uns</a>
+          </li>
+          <li class="header_list_item">
+            <a href="#search" class="header_list_link">Suche</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero_shadow">
+        <h1 class="hero_title">Professionelle Beratung in der Schweiz</h1>
+        <p class="hero_description">
+          Wir helfen Ihnen, die besten Entscheidungen zu treffen.
+        </p>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Unsere Vorteile</h2>
+      <ul>
+        <li>Erfahrene Berater</li>
+        <li>Maßgeschneiderte Lösungen</li>
+        <li>Umfassende Unterstützung</li>
+      </ul>
+    </section>
+
+    <!-- Блок блогу -->
+    <section id="blog" class="blog">
+      <h2>Blog</h2>
+      <div class="posts">
+        <article>
+          <h3>Wie man Geschäftsstrategien verbessert</h3>
+          <p>Tipps und Tricks zur Optimierung Ihrer Geschäftsprozesse.</p>
+        </article>
+        <article>
+          <h3>Die Bedeutung der Finanzplanung</h3>
+          <p>Warum eine solide Finanzplanung der Schlüssel zum Erfolg ist.</p>
+        </article>
+        <article>
+          <h3>Erfolgreiche Startups in der Schweiz</h3>
+          <p>Ein Blick auf die besten Startups und deren Erfolgsstrategien.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Форма зв'язку -->
+    <section id="contacts" class="contact">
+      <h2>Kontaktieren Sie uns</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Ihr Name" required />
+        <input type="email" placeholder="E-Mail" required />
+        <input type="tel" placeholder="Telefonnummer" required />
+        <button type="submit">Nachricht senden</button>
+      </form>
+    </section>
+
+    <!-- Місцезнаходження на карті -->
+    <section class="map">
+      <h2>Unser Standort</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2769.435117206222!2d8.541694315447112!3d47.37688617917367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a065b2d857d%3A0x40f16f367ec57e0!2sZ%C3%BCrich%2C%20Schweiz!5e0!3m2!1sen!2sde!4v1671234567890!5m2!1sen!2sde"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+      <p>
+        &copy; 2024 RIGHT LIFE. Alle Rechte vorbehalten. | Datenschutz |
+        Impressum
+      </p>
+    </footer>
+
+    <script src="../JS//script.js"></script>
+  </body>
+</html>
